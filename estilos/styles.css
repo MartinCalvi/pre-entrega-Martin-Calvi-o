@@ -19,7 +19,7 @@ nav{
 }
 
 body{
-    background-image: url('../imG/Fondo-7.png');
+    background-image: url('/img/Fondo-7.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +60,7 @@ p{
 }
 
 .info{
-    font-size: 150%;
+    font-size: 100%;
     color: blanchedalmond;
     font-family: "SUSE Mono";
 }
