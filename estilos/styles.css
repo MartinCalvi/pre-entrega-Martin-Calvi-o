@@ -19,7 +19,7 @@ nav{
 }
 
 body{
-    background-image: url('/img/Fondo-7.png');
+    background-image: url('../img/Fondo-7.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
