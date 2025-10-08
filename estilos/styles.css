@@ -1,0 +1,87 @@
+/*@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');*/
+
+header{
+    
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+
+.lista{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body{
+    background-image: url('../imG/Fondo-7.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,h2{
+    color: blanchedalmond;
+}
+
+h1{
+    font-size: 800%;
+}
+
+h2{
+    font-size: 500%;
+}
+
+p{
+    font-size: 200%;
+    color: blanchedalmond;
+    font-family: "SUSE Mono";
+}
+
+
+.geo{
+    font-size: 200%;
+    color: blanchedalmond;
+    font-family: "SUSE Mono";
+
+}
+
+
+.galeria{
+    font-size: 200%;
+    color: blanchedalmond;
+    font-family: "SUSE Mono";
+
+}
+
+.info{
+    font-size: 150%;
+    color: blanchedalmond;
+    font-family: "SUSE Mono";
+}
+
+
+
+section{
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+} 
+
+form{
+    font-size: 200%;
+    color: blanchedalmond;
+}
+
+footer{
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
