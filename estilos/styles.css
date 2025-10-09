@@ -61,6 +61,7 @@ p{
 
 
 section{
+    border: solid blanchedalmond 2px ;
     text-align: center;
     margin-left: 4%;
     margin-right: 4%;
@@ -68,7 +69,7 @@ section{
 } 
 
 .contenedor{
-    border: solid rgb(181, 181, 202) 3px;
+    
     display: flex; /*Da una disposicion horizontal*/
     flex-direction: row;  /*Tambien puede ser columna : collumn*/
     justify-content: space-around;
@@ -81,27 +82,27 @@ section{
 }
 
 .fosil{
-    border: solid rgb(255, 47, 182) 2px;
+    
     width: 30%;
     height: 30%;
 }
 
 .foto-fosil{
-    border: solid greenyellow 2px;
+    
     width: "auto";
     height: 100%;
 
 }
 
 .paleogeografia{
-    border: solid rgb(255, 47, 196) 2px;
+    
     width: 30%;
     height: 30%;
 
 }
 
 .foto-geo{
-    border: solid rgb(47, 182, 255) 2px;
+    
     width: "auto";
     height: 100%;
 
@@ -111,14 +112,14 @@ section{
 
 .b , .g{
     color: blanchedalmond;
-    font-size: 3vw;
+    font-size: 2.5vw;
 
 }
 
 
 
 form{
-    font-size: 200%;
+    font-size: 150%;
     color: blanchedalmond;
 }
 
