@@ -11,7 +11,7 @@ nav{
 
 
 .lista{
-    
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,11 +30,11 @@ h1,h2{
 }
 
 h1{
-    font-size: 800%;
+    font-size: 450%;
 }
 
 h2{
-    font-size: 500%;
+    font-size: 300%;
 }
 
 p{
@@ -44,20 +44,14 @@ p{
 }
 
 
-.geo{
-    font-size: 200%;
-    color: blanchedalmond;
-    font-family: "SUSE Mono";
-
-}
-
-
 .galeria{
-    font-size: 200%;
+    font-size: 100%;
     color: blanchedalmond;
     font-family: "SUSE Mono";
 
 }
+
+
 
 .info{
     font-size: 100%;
@@ -66,13 +60,62 @@ p{
 }
 
 
-
 section{
     text-align: center;
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 4%;
 } 
+
+.contenedor{
+    border: solid rgb(181, 181, 202) 3px;
+    display: flex; /*Da una disposicion horizontal*/
+    flex-direction: row;  /*Tambien puede ser columna : collumn*/
+    justify-content: space-around;
+    flex-wrap: wrap;  /*Me ayuda a que el cotenido se adapte */ 
+    /*height: 290%;*/
+    /*padding-left: 10%;
+    padding-right: 10%;*/
+    padding: 2%;
+
+}
+
+.fosil{
+    border: solid rgb(255, 47, 182) 2px;
+    width: 30%;
+    height: 30%;
+}
+
+.foto-fosil{
+    border: solid greenyellow 2px;
+    width: "auto";
+    height: 100%;
+
+}
+
+.paleogeografia{
+    border: solid rgb(255, 47, 196) 2px;
+    width: 30%;
+    height: 30%;
+
+}
+
+.foto-geo{
+    border: solid rgb(47, 182, 255) 2px;
+    width: "auto";
+    height: 100%;
+
+
+}
+
+
+.b , .g{
+    color: blanchedalmond;
+    font-size: 3vw;
+
+}
+
+
 
 form{
     font-size: 200%;
