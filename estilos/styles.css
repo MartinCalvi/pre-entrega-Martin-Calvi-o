@@ -74,16 +74,15 @@ section{
     flex-direction: row;  /*Tambien puede ser columna : collumn*/
     justify-content: space-around;
     flex-wrap: wrap;  /*Me ayuda a que el cotenido se adapte */ 
-    /*height: 290%;*/
-    /*padding-left: 10%;
-    padding-right: 10%;*/
-    padding: 2%;
+    gap: 10px;
+
+    
 
 }
 
 .fosil{
     
-    width: 30%;
+    width: 350px;
     height: 30%;
 }
 
@@ -96,7 +95,7 @@ section{
 
 .paleogeografia{
     
-    width: 30%;
+    width: 350px;
     height: 30%;
 
 }
