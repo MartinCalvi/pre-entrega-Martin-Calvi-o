@@ -30,22 +30,22 @@ h1,h2{
 }
 
 h1{
-    font-size: 450%;
+    font-size: 4.5vw;
 }
 
 h2{
-    font-size: 300%;
+    font-size: 3.5vw;
 }
 
 p{
-    font-size: 200%;
+    font-size: 2.5vw;
     color: blanchedalmond;
     font-family: "SUSE Mono";
 }
 
 
-.galeria{
-    font-size: 100%;
+.inicio,.galeria , .contacto{
+    font-size: 2.5vw;
     color: blanchedalmond;
     font-family: "SUSE Mono";
 
