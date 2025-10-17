@@ -231,6 +231,8 @@ footer{
 }
 
 .redes{
+    width: 20%;
+    text-align: center;
     border: solid rgb(255, 0, 238);
     display: flex; /*Da una disposicion horizontal*/
     flex-direction: column;  /*Tambien puede ser columna : collumn*/
@@ -241,20 +243,8 @@ footer{
 
 
 /* -------------------------RESPONSIVE-------------------------------------------------------- */
-/*@media only screen and (max-width :414px){
-    
-    footer{
-        padding-left: 5%;
-        padding-right: 5%;
-    }
 
-    .mapa{
-        width: 50%;
-    }
-    
-}*/
-
-@media only screen and (min-width: 300px) and (max-width: 600px){
+@media only screen and /*(min-width: 300px) and*/ (max-width: 600px){
     
     #card-paleo{
         width: 80%;
@@ -274,9 +264,6 @@ footer{
     }
 
 
-
-
-
     footer{
         padding-left: 5%;
         padding-right: 5%;
@@ -291,4 +278,34 @@ footer{
         width: 30%;
     }
     
+}
+
+@media only screen and (min-width: 600px) and (max-width : 992px){
+    
+    #card-paleo{
+        width: 50%;
+    }
+
+    section{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    footer{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .mapa{
+        width: 50%;
+    }
+
+    .redes{
+        text-align: center;
+        width: 20%;
+    }
+
+
+
+
+
 }
