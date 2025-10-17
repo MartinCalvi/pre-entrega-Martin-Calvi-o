@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Tiempo geologico</title>
 </head>
 <body>
     <main>
         <header>
-            <div>
-                <img src= "imagenes/logo-2.png" alt="Logo de la pagina" width="20%" height="20%">
+            <div class="logo">
+                <img src= "imagenes/logo-2.png" alt="Logo de la pagina" width="67%" height="70%">
             </div>
             <h1>Tiempo Geologico</h1>
         </header>
@@ -41,63 +42,90 @@
             </p>
 
             <div class="contenedor">
-                <div class="card">
-                    <div> <p>Periodo cambrico</p></div>
+                <div class="card" id="card-paleo">
+                    <div class="periodo"><p>Periodo cambrico</p></div>
                 
                         <div class="foto-cam">
                             <img src="imagenes/cambrico.png" alt="" class="cam">
                         </div>
 
-                    <div>Mas informacion</div>
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
 
                 </div>
 
-                <div class="card">
-                    <div> <p>Periodo ordovico</p></div>
+                <div class="card" id="card-paleo">
+                    <div class="periodo"> <p>Periodo ordovico</p></div>
                 
                         <div class="foto-ord"> 
                             <img src="imagenes/ordovicico.png" alt="" class="ord">
 
                         </div> 
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
 
                 </div>
 
                 
-                <div class="card">
-                    <div> <p>Periodo Silurico</p> </div>
+                <div class="card" id="card-paleo">
+                    <div class="periodo"> <p>Periodo Silurico</p> </div>
                 
                     <div class="foto-sil"> 
                         <img src="imagenes/silurico.png" alt="" class="sil">
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
+
                 </div>
 
 
-                <div class="card">
-                        <div> <P>Periodo Devonico</P> </div>
+                <div class="card" id="card-paleo">
+                        <div class="periodo"> <P>Periodo Devonico</P> </div>
                 
                         <div class="foto-dev"> 
                             <img src="imagenes/devonico.png" alt="" class="dev">
                         </div> 
 
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
+
                 </div>
 
                 
-                <div class="card">
+                <div class="card" id="card-paleo">
                     <div> <p>Periodo Carbonifero</p>  </div>
                 
                     <div class="foto-carb"> 
                         <img src="imagenes/carbonifero.png" alt="" class="carb">
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
                 </div>
 
                 
-                <div class="card">
-                    <div>  <p>Periodo Permico</p> </div>
+                <div class="card" id="card-paleo">
+                    <div class="periodo">  <p>Periodo Permico</p> </div>
                 
                     <div class="foto-permico"> 
                         <img src="imagenes/permico.png" alt="" class="perm">
 
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
                 </div>
 
             </div>
@@ -117,31 +145,44 @@
             </p>
 
             <div class="contenedor">
-                <div class="card">
+                <div class="card" id="card-mezo">
                     <div> <p>Periodo Triasico</p> </div>
                 
                     <div class="foto-tri"> 
                         <img src="imagenes/triasico.png" alt="" class="tri">
-
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
                 </div>
 
-                <div class="card">
+                <div class="card" id="card-mezo">
                     <div> <p>Periodo Jurasico</p>  </div>
                 
                     <div class="foto-jur"> 
                         <img src="imagenes/jurasico.png" alt="" class="jur">
-
                     </div> 
+                    
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
                 </div>
                 
-                <div class="card">
+                <div class="card" id="card-mezo">
                     <div> <p>Periodo Cretacico</p> </div>
                 
                     <div class="foto-cret"> 
                         <img src="imagenes/cretacico.png" alt="" class="cret">
 
-                    </div> 
+                    </div>
+                    
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>                    
+                    
                 </div>
 
             </div>
@@ -161,39 +202,53 @@
                 Es la era del clima cambiante, la formación de las cadenas montañosas modernas y la vida tal como la conocemos hoy.
             </p>
             <div class="contenedor">
-                <div class="card">
+                <div class="card" id="card-ceno">
                     <div> <P>Periodo Paleógeno</P>  </div>
                 
                     <div class="foto-paleo"> 
                         <img src="imagenes/paleogeno.png" alt="" class="paleo">
-
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
                 </div>
 
-                <div class="card">
+                <div class="card" id="card-ceno">
                     <div> <P>Periodo Neogeno</P> </div>
                 
                     <div class="foto-neo"> 
                         <img src="imagenes/neogeno.png" alt="" class="neo">
-
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
+
                 </div>
                 
-                <div class="card">
+                <div class="card" id="card-ceno">
                     <div> <P>Periodo Cuaternacio</P> </div>
                 
                     <div class="foto-cuat"> 
                         <img src="imagenes/cuaternario.png" alt="" class="cuat">
-
                     </div> 
+
+                    <div class="boton">
+                        <button>Informacion</button>
+                    </div>
+
+
                 </div>
 
         </section>
 
-        <section>
+        <section class="formularios">
             <h2>Envia consultas </h2>
             <form action="">
-                <fieldset>  <!--Campo dentro de formulario-->
+                <fieldset class="usuario">  <!--Campo dentro de formulario-->
                     <legend>Informacion personal</legend>  <!--Titulo del campo-->
                     <label for="nombre">Nombre: </label>
                     <input type="text" id="nombre" name="nombre">
@@ -205,11 +260,11 @@
                 </fieldset>
                 <br>
 
-                <fieldset>
+                <fieldset class="mensaje">
                     <legend>Envia tu consulta</legend>
 
                     <label for="mensaje">Mensaje</label> <br>
-                    <textarea name="mensaje" id="mensaje" rows="10" cols="40"></textarea>
+                    <textarea name="mensaje" id="mensaje" ></textarea>
                 </fieldset>
             </form>
         </section>
@@ -221,13 +276,17 @@
     <footer>
         <div class="mapa">
             <p>Museo de ciencias Naturales</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9610558224404!2d-58.440247990190755!3d-34.60514627284094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6d73459b81%3A0x8a7e8de50dd0046e!2sMuseo%20de%20Ciencias%20Naturales%20Bernardino%20Rivadavia!5e0!3m2!1ses-419!2sar!4v1759516797755!5m2!1ses-419!2sar" width="30%" height="220px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9610558224404!2d-58.440247990190755!3d-34.60514627284094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6d73459b81%3A0x8a7e8de50dd0046e!2sMuseo%20de%20Ciencias%20Naturales%20Bernardino%20Rivadavia!5e0!3m2!1ses-419!2sar!4v1759516797755!5m2!1ses-419!2sar" width="85%" height="55%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </div>
         <br>
 
         <div class="redes">
+            <a href="https://www.linkedin.com/in/martin-calvino/">
+                <i class="fa-brands fa-linkedin fa-3x icono-linkedin" style="color: rgb(144, 90, 18);"></i>
+            </a>
+
             <a href="">
-                <i class="fi fi-brands-instagram fa-10x"></i>
+                <i class="fa-brands fa-instagram fa-3x" style="color: rgb(144, 90, 18);"></i>
             </a>
 
         </div>
