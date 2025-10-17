@@ -265,7 +265,7 @@ footer{
 
 
     footer{
-        height: 350px;
+        height: 220px;
         padding-left: 5%;
         padding-right: 5%;
 
@@ -273,13 +273,14 @@ footer{
 
     .mapa{
         width: 50%;
-        height: 80%;
+        height: 90%;
     }
 
     .redes{
         text-align: center;
-        height: 80%;
+        
         width: 30%;
+        height: 90%;
     }
     
 }
