@@ -111,14 +111,14 @@ section{
 #card-paleo{
     border: solid rgb(47, 245, 255);
     width: 380px;
-    height: 450px;
+    height: 400px;
     margin-top: 3%;
 }
 
 #card-mezo , #card-ceno{
     border: solid rgb(47, 245, 255);
     width: 380px;
-    height: 520px;
+    height: 480px;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -131,7 +131,7 @@ section{
 .boton{
     border: solid rgb(215, 90, 32);
     height: 8%;
-    margin-top: 2px;
+    margin-top: 3px;
     /*margin-bottom: 10px;*/
     margin-left: 5%;
     margin-right: 5%;
